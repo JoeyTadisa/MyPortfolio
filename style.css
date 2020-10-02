@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+  
+  .navbar {
+    background-color: transparent;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .brand {
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #ffc107 !important;
+  }
+  
+  @font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf');
+  }
+  
+  .navbar-nav a {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 500;
+      color: black;
+      padding: 30px 20px;
+  }
